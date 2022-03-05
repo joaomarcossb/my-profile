@@ -20,15 +20,16 @@ const Navbar = () => {
             cursor: pointer;
         }
         li:hover {
-            color: rgb(20,20,20);
+            color: rgb(0,0,0,0.8);
         }
     `
 
     return (
         <List>
-            <li onClick={()=>{ Navigate('/') }}>&#128204; Home</li>
-            <li onClick={()=>{ Navigate('/works') }}>&#128188; Works</li>
-            <li onClick={()=>{ Navigate('/about') }}>&#128220; About</li>
+            <li onClick={()=>{ Navigate('/') }}>&#128204; Início</li>
+            <li onClick={()=>{ Navigate('/projects') }}>&#128188; Projetos</li>
+            <li onClick={()=>{ Navigate('/about') }}>&#128220; Sobre</li>
+            <li onClick={()=>{ Navigate('/contact') }}>&#128233; Contato</li>
         </List>
     );
 }

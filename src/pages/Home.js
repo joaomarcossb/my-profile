@@ -3,12 +3,13 @@ import imgURL from "../images/home.png";
 import baseFont from "../fonts/work-sans.ttf";
 import titleFont from "../fonts/eczar.ttf";
 import svgURL from "../images/arrow.svg";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    const Navigate = useNavigate();
     const HomeBox = styled.div`
         width: 800px;
         background-color: transparent;
-        /*border: solid 1px white;*/
         text-align: left;
         display: flex;
         align-items: center;
@@ -16,7 +17,6 @@ const Home = () => {
     const Left = styled.div`
         width: 60%;
         float: left;
-        /*border: solid 1px white;*/
         padding-left: 10px;
         @media (max-width: 570px) {
             width: 100%;
@@ -26,7 +26,6 @@ const Home = () => {
     const Right = styled.div`
         width: 40%;
         float: right;
-        /*border: solid 1px white;*/
         @media (max-width: 570px) {
             display: none;
         }
@@ -42,8 +41,8 @@ const Home = () => {
                 <HelloBtn />
                 <Title />
                 <BtnWrapper>
-                    <WorksBtn />
-                    <AboutBtn />
+                    <ProjectsBtn clickHandler={ () => { Navigate('/projects') }} />
+                    <ContactBtn clickHandler={ () => { Navigate('/contact') } } />
                 </BtnWrapper>
             </Left>
             <Right>
@@ -83,9 +82,11 @@ const Title = () => {
         }
         font-family: 'Eczar';
         font-size: 2rem;
-        color: rgb(0,0,0,0.8);
+        color: #fff;
         line-height: 2.5rem;
+        letter-spacing: 1px;
         margin: 20px 0px;
+        text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
         @media (max-width: 700px) {
             font-size: 1.8rem;
             line-height: 2rem;
@@ -97,8 +98,8 @@ const Title = () => {
     );
 }
 
-const WorksBtn = () => {
-    const StyledWorksBtn = styled.button`
+const ProjectsBtn = ( { clickHandler } ) => {
+    const StyledProjectsBtn = styled.button`
         @font-face {
             font-family: 'Work Sans';
             src: url(${baseFont});
@@ -122,15 +123,15 @@ const WorksBtn = () => {
         }
     `;
     return (
-        <StyledWorksBtn>
+        <StyledProjectsBtn onClick={ () => clickHandler() }>
             Ver Projetos 
             <img src={svgURL} alt="svg arrow" style={{'marginLeft': '5px'}}></img>
-        </StyledWorksBtn>
+        </StyledProjectsBtn>
     );
 }
 
-const AboutBtn = () => {
-    const StyledAboutBtn = styled.button`
+const ContactBtn = ( { clickHandler } ) => {
+    const StyledContactBtn = styled.button`
         @font-face {
             font-family: 'Work Sans';
             src: url(${baseFont});
@@ -151,7 +152,9 @@ const AboutBtn = () => {
         }
     `;
     return (
-        <StyledAboutBtn>Fale Comigo</StyledAboutBtn>
+        <StyledContactBtn onClick={ () => clickHandler() } >
+            Fale Comigo
+        </StyledContactBtn>
     );
 }
 
