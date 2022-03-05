@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-profile/static/css/main.e35023be.css",
+    "main.js": "/my-profile/static/js/main.e49c8bdf.js",
+    "static/media/eczar.ttf": "/my-profile/static/media/eczar.7636037966a7a59f7668.ttf",
+    "static/media/work-sans.ttf": "/my-profile/static/media/work-sans.1e98db4eb705b586728e.ttf",
+    "static/media/survey-form.png": "/my-profile/static/media/survey-form.de1a8b7df4034147c26d.png",
+    "static/media/home.png": "/my-profile/static/media/home.f599820ac4fd11f82862.png",
+    "static/media/login-portal.png": "/my-profile/static/media/login-portal.7831209922fea626efc4.png",
+    "static/media/doc-model.png": "/my-profile/static/media/doc-model.21db9b9a587b7f414f30.png",
+    "static/media/pianostore.png": "/my-profile/static/media/pianostore.5e32f49c1295c1302a70.png",
+    "static/media/pomodoro.png": "/my-profile/static/media/pomodoro.cfa5d7c7f0d9b4d4e05b.png",
+    "static/media/random-quote.png": "/my-profile/static/media/random-quote.535d5f11dea1aa2e685b.png",
+    "static/media/drum-machine.png": "/my-profile/static/media/drum-machine.1b7f4aa7a2a3df8a1ff8.png",
+    "static/media/calculator.png": "/my-profile/static/media/calculator.c91e3442ea6a7fd6d6ec.png",
+    "static/media/slick.svg": "/my-profile/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/my-profile/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/my-profile/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/my-profile/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/arrow.svg": "/my-profile/static/media/arrow.7ab4b2288a393237de666be074f3b962.svg",
+    "index.html": "/my-profile/index.html",
+    "main.e35023be.css.map": "/my-profile/static/css/main.e35023be.css.map",
+    "main.e49c8bdf.js.map": "/my-profile/static/js/main.e49c8bdf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e35023be.css",
+    "static/js/main.e49c8bdf.js"
+  ]
+}
