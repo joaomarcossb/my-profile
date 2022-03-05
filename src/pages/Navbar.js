@@ -26,10 +26,10 @@ const Navbar = () => {
 
     return (
         <List>
-            <li onClick={()=>{ Navigate('https://joaomarcossb.github.io/my-profile/') }}>&#128204; Início</li>
-            <li onClick={()=>{ Navigate('https://joaomarcossb.github.io/my-profile/projects') }}>&#128188; Projetos</li>
-            <li onClick={()=>{ Navigate('https://joaomarcossb.github.io/my-profile/about') }}>&#128220; Sobre</li>
-            <li onClick={()=>{ Navigate('https://joaomarcossb.github.io/my-profile/contact') }}>&#128233; Contato</li>
+            <li onClick={()=>{ Navigate('/') }}>&#128204; Início</li>
+            <li onClick={()=>{ Navigate('/projects') }}>&#128188; Projetos</li>
+            <li onClick={()=>{ Navigate('/about') }}>&#128220; Sobre</li>
+            <li onClick={()=>{ Navigate('/contact') }}>&#128233; Contato</li>
         </List>
     );
 }

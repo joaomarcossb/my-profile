@@ -41,8 +41,8 @@ const Home = () => {
                 <HelloBtn />
                 <Title />
                 <BtnWrapper>
-                    <ProjectsBtn clickHandler={ () => { Navigate('https://joaomarcossb.github.io/my-profile/projects') }} />
-                    <ContactBtn clickHandler={ () => { Navigate('https://joaomarcossb.github.io/my-profile/contact') } } />
+                    <ProjectsBtn clickHandler={ () => { Navigate('/projects') }} />
+                    <ContactBtn clickHandler={ () => { Navigate('/contact') } } />
                 </BtnWrapper>
             </Left>
             <Right>

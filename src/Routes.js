@@ -7,10 +7,10 @@ import Contact from "./pages/Contact";
 const MainRoutes = () => {
     return (
         <Routes>
-            <Route path="https://joaomarcossb.github.io/my-profile/" element={ <Home /> } />
-            <Route path="https://joaomarcossb.github.io/my-profile/about" element={ <About /> } />
-            <Route path="https://joaomarcossb.github.io/my-profile/projects" element={ <Projects /> } />
-            <Route path="https://joaomarcossb.github.io/my-profile/contact" element={ <Contact /> } />
+            <Route path="/" element={ <Home /> } />
+            <Route path="/about" element={ <About /> } />
+            <Route path="/projects" element={ <Projects /> } />
+            <Route path="/contact" element={ <Contact /> } />
         </Routes>
     );
 }
