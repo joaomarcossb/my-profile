@@ -60,7 +60,6 @@ const SimpleSlider = () => {
         font-family: 'Eczar';
         margin-bottom: 20px;
         color: #fff;
-        text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
         letter-spacing: .5px;
         @media (max-width: 500px) {
             font-size: 1.2rem;
