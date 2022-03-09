@@ -32,7 +32,6 @@ const Title = ( { mainText } ) => {
         }
         font-family: 'Eczar';
         color: #fff;
-        text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
         margin-bottom: 10px;
         letter-spacing: 1px;
         @media (max-width: 500px) {

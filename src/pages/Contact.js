@@ -13,7 +13,6 @@ const Contact = () => {
         h1 {
             font-family: 'Eczar';
             color: white;
-            text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
             letter-spacing: 1px;
             margin-bottom: 40px;
         }

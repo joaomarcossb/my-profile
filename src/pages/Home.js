@@ -86,7 +86,6 @@ const Title = () => {
         line-height: 2.5rem;
         letter-spacing: 1px;
         margin: 20px 0px;
-        text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
         @media (max-width: 700px) {
             font-size: 1.8rem;
             line-height: 2rem;
