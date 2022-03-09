@@ -14,6 +14,7 @@ const Navbar = () => {
         list-style-type: none;
         li {
             color: white;
+            text-align: center;
             font-weight: bold;
             letter-spacing: 2px;
             margin-left: 4vw;
@@ -21,6 +22,9 @@ const Navbar = () => {
         }
         li:hover {
             color: rgb(0,0,0,0.8);
+        }
+        @media (max-width: 475px) {
+            
         }
     `
 

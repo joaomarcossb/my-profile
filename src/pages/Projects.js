@@ -18,7 +18,7 @@ const Projects = () => {
     `;
     return (
         <ProjectsBox>
-            <Title mainText={'Meus Projetos Recentes'} />
+            <Title mainText={'Projetos Recentes'} />
             <SimpleSlider />
         </ProjectsBox>
     );
@@ -34,7 +34,7 @@ const Title = ( { mainText } ) => {
         color: #fff;
         text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
         margin-bottom: 10px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         @media (max-width: 500px) {
             font-size: 1.8rem;
         }
@@ -62,7 +62,7 @@ const SimpleSlider = () => {
         margin-bottom: 20px;
         color: #fff;
         text-shadow: 2px 2px 4px rgb(0,0,0,0.3);
-        letter-spacing: 2px;
+        letter-spacing: .5px;
         @media (max-width: 500px) {
             font-size: 1.2rem;
         }
